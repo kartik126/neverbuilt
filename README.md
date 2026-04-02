@@ -14,7 +14,7 @@ cp .env.example .env.local
 
 Fill:
 - `NEXT_PUBLIC_SUPABASE_URL`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+- `NEXT_PUBLIC_SUPABASE_ANON_KEY` (or `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY`)
 
 3) Create the table + policies in Supabase SQL editor:
 
