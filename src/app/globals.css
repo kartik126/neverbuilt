@@ -24,3 +24,14 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.pixel-crisp {
+  image-rendering: pixelated;
+}
+
+.graveyard-ground {
+  background-image: url("/ground.png");
+  background-repeat: repeat;
+  background-size: 512px 512px;
+  image-rendering: pixelated;
+}
